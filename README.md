@@ -5,8 +5,8 @@ A selfbot i use to export messages or files from a discord channel. It has some 
 
 * node.js
 * npm packages:  
- * request  
- * discord.js
+  * request  
+  * discord.js
 
 ### Configuration:
 In "config.json":
