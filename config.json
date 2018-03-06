@@ -1,0 +1,6 @@
+ {
+     "token": "TOKEN",
+     "prefix": "..",
+     "expMsg": "/path/to/file.txt",
+     "expImg": "/path/to/folder/"
+ }
