@@ -1,20 +1,27 @@
 ## discord-export
 A selfbot i use to export messages or files from a discord channel. It has some other basic functions, too.
 
-## Dependencies:
+### Dependencies:
 
 * node.js
 * npm packages:  
-> request  
-> discord.js
+ * request  
+ * discord.js
 
-## Configuration::
+### Configuration:
+In "config.json":
 * token: Your token. You can grab it by pressing ctrl+shift+I in the client -> Application -> Local Storage -> token.
 * prefix: The prefix to trigger a command. 
 * expMsg: The text file in which the bot should export the messages from a channel
 * expImg: The folder in which the bot should put the exported images from a channel
 
-## List of commands:
+### How to run the bot:
+* Install node.js
+* Fill in the config file
+* In the clonned folder, open a terminal and type "npm install discord.js" and "npm install request"
+* Run the bot by typing "node ."
+
+### List of commands:
 
 The bot will only react if the account it is logged in types the prefix. It does not react to other people's commands.  
 * pp *id*: shows someone's profile picture. In a DM channel, it's not necessary to enter an ID.
