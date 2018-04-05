@@ -17,7 +17,7 @@ function download(url, dest, filename){    // URL to download from, destination 
 }
 
 function getDatetimeStr(date){
-    return date.getDay()+'-'+date.getMonth()+'-'+date.getFullYear()+' '+date.getHours()+'-'+date.getMinutes()+'-'+date.getSeconds()
+    return date.getDate()+'-'+date.getMonth()+'-'+date.getFullYear()+' '+date.getHours()+'-'+date.getMinutes()+'-'+date.getSeconds()
 }
 
 module.exports={
